@@ -2,5 +2,5 @@
 	$ make
 
 # To Reset
-	$ make reset
+	$ make clean
 	(Note: This deletes all existing data)

@@ -1,8 +1,7 @@
 from datetime import datetime, timedelta
 import pandas as pd
 import numpy as np
-import warnings
-import time, pickle, os.path
+import time, os.path
 import twint
 import re
 from util import *

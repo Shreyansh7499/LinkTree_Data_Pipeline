@@ -5,7 +5,6 @@ import requests
 import json
 from datetime import datetime, timedelta
 import numpy as np
-import warnings
 import time, pickle, os.path
 import twint
 import requests

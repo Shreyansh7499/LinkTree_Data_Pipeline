@@ -2,6 +2,7 @@ All: create_directory log time start
 
 
 create_directory:
+	pip3 install twint
 	mkdir Initialization
 	mkdir Data
 
@@ -14,6 +15,6 @@ time:
 start:
 	python3 get_link_tree_tweets_from_twitter.py
 
-reset:
+clean:
 	rm -rf Initialization
 	rm -rf Data
