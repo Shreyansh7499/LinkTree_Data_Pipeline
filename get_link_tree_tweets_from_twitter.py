@@ -26,7 +26,8 @@ if __name__ == '__main__':
 	client.Pandas = True
 	client.Since = since
 	client.Until = until
-
+	client.Hide_output = True
+	
 	objects = twint.run.Search(client)
 	Tweets_df = twint.storage.panda.Tweets_df
 
