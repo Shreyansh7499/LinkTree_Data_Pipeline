@@ -1,3 +1,6 @@
+# Description
+	A twitter scraper to get all linktree links posted by users
+	
 # To run
 	$ make
 
